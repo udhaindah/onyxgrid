@@ -1,0 +1,21 @@
+{
+  "name": "OnyxGrid",
+  "description": "A high-precision yield tracking and liquidity monitoring runtime built for Base L2.",
+  "url": "https://onyxgrid.vercel.app",
+  "version": "1.0.0",
+  "author": "OnyxGrid Labs",
+  "capabilities": ["mcp", "a2a", "tools", "prompts", "resources", "swarm"],
+  "endpoints": {
+    "mcp": "https://onyxgrid.vercel.app/mcp",
+    "a2a": "https://onyxgrid.vercel.app/a2a",
+    "agentCard": "https://onyxgrid.vercel.app/.well-known/agent-card.json"
+  },
+  "skills": [
+    { "name": "yield_scanner", "description": "Finds optimal yield farming positions across Base DEXes." },
+    { "name": "token_radar", "description": "Deep-dives into token fundamentals and on-chain metrics." },
+    { "name": "portfolio_risk", "description": "Scores portfolio risk using multi-factor analysis." },
+    { "name": "liquidity_heatmap", "description": "Maps liquidity density across pools." },
+    { "name": "trend_pulse", "description": "Detects momentum shifts in real-time." },
+    { "name": "yield_report", "description": "Compiles professional DeFi yield reports." }
+  ]
+}
